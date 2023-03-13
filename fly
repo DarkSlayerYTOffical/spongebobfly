@@ -1,24 +1,213 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
 local ScreenGui = Instance.new("ScreenGui")
-local ImageLabel = Instance.new("ImageLabel")
+local Sponebobad = Instance.new("ImageLabel")
+local TextButton = Instance.new("TextButton")
 local TextLabel = Instance.new("TextLabel")
+local Error = Instance.new("Frame")
+local _1 = Instance.new("TextLabel")
+local _2 = Instance.new("TextLabel")
+local ImageLabel = Instance.new("ImageLabel")
+local Sponebobad_2 = Instance.new("ImageLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local ImageLabel_2 = Instance.new("ImageLabel")
+local _1_2 = Instance.new("TextLabel")
+local _1_3 = Instance.new("TextLabel")
+local _1_4 = Instance.new("TextLabel")
+local _1_5 = Instance.new("TextLabel")
+
+--Properties:
 
 ScreenGui.Parent = game.CoreGui
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+ScreenGui.ResetOnSpawn = false
 
-ImageLabel.Parent = ScreenGui
-ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ImageLabel.Size = UDim2.new(1, 0, 1, 0)
-ImageLabel.Image = "http://www.roblox.com/asset/?id=12772560448"
+Sponebobad.Name = "Sponebob ad"
+Sponebobad.Parent = ScreenGui
+Sponebobad.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Sponebobad.BackgroundTransparency = 1.000
+Sponebobad.Position = UDim2.new(0.413574874, 0, 0.259376705, 0)
+Sponebobad.Size = UDim2.new(0.157270029, 0, 0.264197528, 0)
+Sponebobad.Image = "http://www.roblox.com/asset/?id=12772560448"
 
-TextLabel.Parent = ImageLabel
+TextButton.Parent = Sponebobad
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.BackgroundTransparency = 1.000
+TextButton.Position = UDim2.new(0.849056602, 0, 0, 0)
+TextButton.Size = UDim2.new(0.150943398, 0, 0.158878505, 0)
+TextButton.Font = Enum.Font.FredokaOne
+TextButton.Text = "X"
+TextButton.TextColor3 = Color3.fromRGB(170, 0, 0)
+TextButton.TextScaled = true
+TextButton.TextSize = 14.000
+TextButton.TextWrapped = true
+
+TextLabel.Parent = Sponebobad
 TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.BackgroundTransparency = 1.000
-TextLabel.Position = UDim2.new(0, 0, -0.0308641978, 0)
-TextLabel.Size = UDim2.new(1, 0, 0.377777785, 0)
-TextLabel.Font = Enum.Font.SourceSans
-TextLabel.Text = "Sponge says no more skidding sonny"
+TextLabel.Position = UDim2.new(0.120754719, 0, 0.67289722, 0)
+TextLabel.Size = UDim2.new(0.754716992, 0, 0.233644858, 0)
+TextLabel.Font = Enum.Font.FredokaOne
+TextLabel.Text = "Get Rich Quick"
 TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.TextScaled = true
 TextLabel.TextSize = 14.000
 TextLabel.TextStrokeTransparency = 0.000
 TextLabel.TextWrapped = true
+
+Error.Name = "Error"
+Error.Parent = ScreenGui
+Error.BackgroundColor3 = Color3.fromRGB(170, 0, 0)
+Error.Size = UDim2.new(1.19758356, 0, 1, 0)
+Error.Visible = false
+
+_1.Name = "1"
+_1.Parent = Error
+_1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_1.BackgroundTransparency = 1.000
+_1.Position = UDim2.new(0.0415430218, 0, 0.096296303, 0)
+_1.Size = UDim2.new(0.877744734, 0, 0.313580245, 0)
+_1.Font = Enum.Font.SourceSans
+_1.Text = "ERROR: 404 SKID FOUND"
+_1.TextColor3 = Color3.fromRGB(0, 0, 0)
+_1.TextScaled = true
+_1.TextSize = 14.000
+_1.TextStrokeColor3 = Color3.fromRGB(170, 0, 0)
+_1.TextStrokeTransparency = 0.000
+_1.TextWrapped = true
+
+_2.Name = "2"
+_2.Parent = _1
+_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_2.BackgroundTransparency = 1.000
+_2.Position = UDim2.new(0.0473123975, 0, 0.764634967, 0)
+_2.Size = UDim2.new(0.905341446, 0, 0.929133832, 0)
+_2.Font = Enum.Font.SourceSans
+_2.Text = "SELF DESTRUCTING"
+_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+_2.TextScaled = true
+_2.TextSize = 14.000
+_2.TextStrokeColor3 = Color3.fromRGB(170, 0, 0)
+_2.TextStrokeTransparency = 0.000
+_2.TextWrapped = true
+
+ImageLabel.Parent = Error
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.Position = UDim2.new(0.379228473, 0, 0.658024669, 0)
+ImageLabel.Size = UDim2.new(0.173887223, 0, 0.319753081, 0)
+ImageLabel.Image = "http://www.roblox.com/asset/?id=5204589584"
+
+Sponebobad_2.Name = "Sponebob ad"
+Sponebobad_2.Parent = Error
+Sponebobad_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Sponebobad_2.BackgroundTransparency = 1.000
+Sponebobad_2.Position = UDim2.new(0.0349398479, 0, 0.608759403, 0)
+Sponebobad_2.Size = UDim2.new(0.157270029, 0, 0.264197528, 0)
+Sponebobad_2.Image = "http://www.roblox.com/asset/?id=12772560448"
+
+TextLabel_2.Parent = Sponebobad_2
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(1.10188675, 0, 0.383177578, 0)
+TextLabel_2.Size = UDim2.new(0.754716873, 0, 0.233644858, 0)
+TextLabel_2.Font = Enum.Font.FredokaOne
+TextLabel_2.Text = "<---- Me"
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+TextLabel_3.Parent = Sponebobad_2
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Position = UDim2.new(0.883018851, 0, 0.67289716, 0)
+TextLabel_3.Size = UDim2.new(0.754716873, 0, 0.233644858, 0)
+TextLabel_3.Font = Enum.Font.FredokaOne
+TextLabel_3.Text = "<---- The Script"
+TextLabel_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
+
+ImageLabel_2.Parent = Error
+ImageLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_2.Position = UDim2.new(0.64985162, 0, 0.61728394, 0)
+ImageLabel_2.Size = UDim2.new(0.173887223, 0, 0.319753081, 0)
+ImageLabel_2.Image = "http://www.roblox.com/asset/?id=305049256"
+
+_1_2.Name = "1"
+_1_2.Parent = Error
+_1_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_1_2.BackgroundTransparency = 1.000
+_1_2.Position = UDim2.new(0.177821413, 0, -0.00617283024, 0)
+_1_2.Size = UDim2.new(0.134408131, 0, 0.0703703612, 0)
+_1_2.Font = Enum.Font.SourceSans
+_1_2.Text = "IP: 192.168.0.1"
+_1_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+_1_2.TextScaled = true
+_1_2.TextSize = 14.000
+_1_2.TextStrokeColor3 = Color3.fromRGB(170, 0, 0)
+_1_2.TextStrokeTransparency = 0.000
+_1_2.TextWrapped = true
+
+_1_3.Name = "1"
+_1_3.Parent = Error
+_1_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_1_3.BackgroundTransparency = 1.000
+_1_3.Position = UDim2.new(0.177821413, 0, 0.0456790179, 0)
+_1_3.Size = UDim2.new(0.134408131, 0, 0.0703703612, 0)
+_1_3.Font = Enum.Font.SourceSans
+_1_3.Text = "Internet Provider: CLV LLC"
+_1_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+_1_3.TextScaled = true
+_1_3.TextSize = 14.000
+_1_3.TextStrokeColor3 = Color3.fromRGB(170, 0, 0)
+_1_3.TextStrokeTransparency = 0.000
+_1_3.TextWrapped = true
+
+_1_4.Name = "1"
+_1_4.Parent = Error
+_1_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_1_4.BackgroundTransparency = 1.000
+_1_4.Position = UDim2.new(0.325497597, 0, -0.0012345612, 0)
+_1_4.Size = UDim2.new(0.134408131, 0, 0.0703703612, 0)
+_1_4.Font = Enum.Font.SourceSans
+_1_4.Text = "IPV4: 192.674.754.02.1"
+_1_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+_1_4.TextScaled = true
+_1_4.TextSize = 14.000
+_1_4.TextStrokeColor3 = Color3.fromRGB(170, 0, 0)
+_1_4.TextStrokeTransparency = 0.000
+_1_4.TextWrapped = true
+
+_1_5.Name = "1"
+_1_5.Parent = Error
+_1_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_1_5.BackgroundTransparency = 1.000
+_1_5.Position = UDim2.new(0.298241913, 0, 0.0456790179, 0)
+_1_5.Size = UDim2.new(0.134408131, 0, 0.0703703612, 0)
+_1_5.Font = Enum.Font.SourceSans
+_1_5.Text = "FPS: 30"
+_1_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+_1_5.TextScaled = true
+_1_5.TextSize = 14.000
+_1_5.TextStrokeColor3 = Color3.fromRGB(170, 0, 0)
+_1_5.TextStrokeTransparency = 0.000
+_1_5.TextWrapped = true
+
+-- Scripts:
+
+local function YFQS_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+		script.Parent.Parent.Parent.Error.Visible = true
+		script.Parent.Parent["Nuke Alarm"].Playing = true
+	end)
+end
+coroutine.wrap(YFQS_fake_script)()
